@@ -1,0 +1,257 @@
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  #banner {
+    padding: 120px 0px 180px 0px;
+  }
+  #banner .ban-1 .ban-img {
+    position: static;
+  }
+  #banner .ban-2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #banner .ban-2 .ban-text {
+    padding-right: 0px;
+  }
+  #banner .ban-2 .ban-text h1 {
+    font-size: 280px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #banner {
+    padding: 120px 0px 180px 0px;
+  }
+  #banner .ban-1 .ban-img {
+    position: static;
+  }
+  #banner .ban-2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #banner .ban-2 .ban-text {
+    padding-right: 0px;
+  }
+  #banner .ban-2 .ban-text h1 {
+    font-size: 280px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar ul li {
+    margin: 20px 20px !important;
+  }
+  .navbar .d-flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar .d-flex a {
+    margin: 0px 15px;
+  }
+  #banner {
+    padding: 120px 0px 180px 0px;
+  }
+  #banner .ban-1 .ban-img {
+    position: static;
+  }
+  #banner .ban-2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #banner .ban-2 .ban-text {
+    padding-right: 0px;
+  }
+  #banner .ban-2 .ban-text h1 {
+    font-size: 400px;
+  }
+  #game .game {
+    left: 53%;
+  }
+  #game .game .game-slide {
+    display: block;
+  }
+  #game .game .col-4 {
+    display: none;
+  }
+  #relet-game {
+    padding: 60px 0px 30px 0px;
+  }
+  #relet-game .relet-game .relet-item .relet-img {
+    margin-bottom: 20px;
+  }
+  #pricing .heading h3 {
+    margin: 100px 0px 5px 0px;
+  }
+  #pricing .col-lg-4 {
+    margin-top: 70px;
+  }
+  #information .col-lg-5 {
+    margin-top: 50px;
+  }
+  #subscribe .col-lg-5 {
+    margin-top: 50px;
+  }
+  #footer h3 {
+    margin-top: 50px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar ul li {
+    margin: 20px 20px !important;
+  }
+  .navbar .d-flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar .d-flex a {
+    margin: 0px 15px;
+  }
+  #banner {
+    padding: 120px 0px 180px 0px;
+  }
+  #banner .ban-1 .ban-img {
+    position: static;
+  }
+  #banner .ban-2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #banner .ban-2 .ban-text {
+    padding-right: 0px;
+  }
+  #banner .ban-2 .ban-text h1 {
+    font-size: 300px;
+  }
+  #game .game {
+    left: 53%;
+  }
+  #game .game .game-slide {
+    display: block;
+  }
+  #game .game .col-4 {
+    display: none;
+  }
+  #relet-game {
+    padding: 60px 0px 30px 0px;
+  }
+  #relet-game .relet-game .relet-item .relet-img {
+    margin-bottom: 20px;
+  }
+  #pricing .heading h3 {
+    margin: 100px 0px 5px 0px;
+  }
+  #pricing .col-lg-4 {
+    margin-top: 70px;
+  }
+  #information .col-lg-5 {
+    margin-top: 50px;
+  }
+  #subscribe .col-lg-5 {
+    margin-top: 50px;
+  }
+  #footer h3 {
+    margin-top: 50px;
+  }
+}
+
+/* extra small */
+@media (max-width: 576px) {
+  .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar ul li {
+    margin: 20px 20px !important;
+  }
+  .navbar .d-flex {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .navbar .d-flex a {
+    margin: 0px 10px;
+  }
+  #banner {
+    padding: 120px 0px 180px 0px;
+  }
+  #banner .ban-1 .ban-img {
+    position: static;
+  }
+  #banner .ban-2 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  #banner .ban-2 .ban-text {
+    padding-right: 0px;
+  }
+  #banner .ban-2 .ban-text h1 {
+    font-size: 220px;
+  }
+  #game .game {
+    left: 53%;
+  }
+  #game .game .game-slide {
+    display: block;
+  }
+  #game .game .col-4 {
+    display: none;
+  }
+  #relet-game {
+    padding: 60px 0px 30px 0px;
+  }
+  #relet-game .relet-game .relet-item .relet-img {
+    margin-bottom: 20px;
+  }
+  #pricing .heading h3 {
+    margin: 100px 0px 5px 0px;
+  }
+  #pricing .col-lg-4 {
+    margin-top: 70px;
+  }
+  #information .col-lg-5 {
+    margin-top: 50px;
+  }
+  #subscribe .col-lg-5 {
+    margin-top: 50px;
+  }
+  #footer h3 {
+    margin-top: 50px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
