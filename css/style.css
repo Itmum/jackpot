@@ -181,8 +181,8 @@ p {
 }
 
 #game .game {
-  -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 91%);
-          clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 91%);
+  -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
   position: absolute;
   top: -120px;
   left: 50%;
@@ -205,9 +205,8 @@ p {
   background: linear-gradient(90deg, #9e4efc 0%, #570dc8 100%);
   padding: 50px 0px;
   width: 100%;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
   text-align: center;
+  border-bottom: 5px #3a0090 solid;
 }
 
 #game .game .game-item h4 {
@@ -847,5 +846,469 @@ p {
   to {
     top: 0;
   }
+}
+
+#about-us #banner {
+  text-align: center;
+}
+
+#about-us #banner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+          filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+  padding: 0px 0px 40px 0px;
+}
+
+#about-us #banner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400px;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 30px;
+}
+
+#about-us #game {
+  background: #150035;
+}
+
+#about-us #free-spin {
+  padding: 150px 0px;
+}
+
+#about-us #free-spin p {
+  padding: 10px 0px 10px 0px;
+}
+
+#about-us #free-spin a {
+  margin-top: 50px;
+}
+
+#about-us #free-spin .free-spin-img {
+  margin-top: -60px;
+}
+
+#about-us .slick-slide {
+  margin: 0 20px;
+}
+
+#game #banner {
+  text-align: center;
+}
+
+#game #banner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+          filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+  padding: 0px 0px 40px 0px;
+}
+
+#game #banner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400px;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 30px;
+}
+
+#game #relet-game .relet-game .relet-item {
+  margin: 10px 0px;
+}
+
+#pricing-page #banner {
+  text-align: center;
+}
+
+#pricing-page #banner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+          filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+  padding: 0px 0px 40px 0px;
+}
+
+#pricing-page #banner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400px;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 30px;
+}
+
+#pricing-page #pricing .pricing .col-lg-4 {
+  margin: 80px 0px;
+}
+
+#sign-up #banner {
+  text-align: center;
+}
+
+#sign-up #banner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+          filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+  padding: 0px 0px 40px 0px;
+}
+
+#sign-up #banner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400px;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 30px;
+}
+
+#sign-up #sign-up-form {
+  background: #0b001b;
+  padding: 100px 0px;
+}
+
+#sign-up #sign-up-form .sign-up-img-parent .sign-up-img {
+  width: 100%;
+}
+
+#sign-up #sign-up-form .sign-up-img-parent .sign-up-img img {
+  margin: -100px 50px 0px -220px;
+}
+
+#sign-up #sign-up-form .sign-up-inner form .first-input .sing-up-input input {
+  background: transparent;
+  border-bottom: 2px solid #fff !important;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+#sign-up #sign-up-form .sign-up-inner form .sing-up-input {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#sign-up #sign-up-form .sign-up-inner form .sing-up-input input {
+  background: transparent;
+  border-bottom: 2px solid #fff !important;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+#sign-up #sign-up-form .sign-up-inner form .sing-up-input svg {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  color: #fff;
+}
+
+#sign-up #sign-up-form .sign-up-inner form button {
+  text-transform: capitalize;
+  padding: 10px 30px;
+  background: #6015ce;
+  -webkit-box-shadow: 0px 4px #3a0090;
+          box-shadow: 0px 4px #3a0090;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 5px 5px #5813b8;
+  border: 0px solid #fff;
+  width: 100%;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#sign-up #sign-up-form .sign-up-inner form button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff39dc), to(#a60084));
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  text-shadow: 6px 6px 1px #a60084;
+  -webkit-box-shadow: 0px 5px #661355;
+          box-shadow: 0px 5px #661355;
+}
+
+#sign-up #sign-up-form .sign-up-inner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+}
+
+#sign-up #sign-up-form .sign-up-inner p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  margin: 20px 0px 80px 0px;
+}
+
+#sign-up #sign-up-form .sign-up-inner p::after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  width: 60px;
+  height: 5px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#sign-up #sign-up-form .sign-up-inner .after-form {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+#sign-up #sign-up-form .sign-up-inner .after-form::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+#sign-up #sign-up-form .sign-up-inner .after-form a {
+  color: #ff39dc;
+}
+
+#sign-up #sign-up-form h5 {
+  display: inline-block;
+  float: right;
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+#sign-up #sign-up-form h5 a {
+  text-transform: capitalize;
+  padding: 10px 30px;
+  background: #6015ce;
+  -webkit-box-shadow: 0px 4px #3a0090;
+          box-shadow: 0px 4px #3a0090;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 5px 5px #5813b8;
+  margin-left: 30px;
+  padding: 20px 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#sign-up #sign-up-form h5 a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff39dc), to(#a60084));
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  text-shadow: 6px 6px 1px #a60084;
+  -webkit-box-shadow: 0px 5px #661355;
+          box-shadow: 0px 5px #661355;
+}
+
+#sign-up #sign-up-form h5 a:first-of-type {
+  position: relative;
+}
+
+#login-page #banner {
+  text-align: center;
+}
+
+#login-page #banner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+          filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801)) drop-shadow(0px 8px #11000f);
+  padding: 0px 0px 40px 0px;
+}
+
+#login-page #banner h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400px;
+  font-family: "Anton", sans-serif;
+  padding-bottom: 30px;
+}
+
+#login-page #sign-up-form {
+  background: #0b001b;
+  padding: 100px 0px;
+}
+
+#login-page #sign-up-form .sign-up-img-parent .sign-up-img {
+  width: 100%;
+}
+
+#login-page #sign-up-form .sign-up-img-parent .sign-up-img img {
+  margin: -100px 50px 0px -220px;
+}
+
+#login-page #sign-up-form .sign-up-inner form .first-input .sing-up-input input {
+  background: transparent;
+  border-bottom: 2px solid #fff !important;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+#login-page #sign-up-form .sign-up-inner form .sing-up-input {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#login-page #sign-up-form .sign-up-inner form .sing-up-input input {
+  background: transparent;
+  border-bottom: 2px solid #fff !important;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  border: 0px solid transparent;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+#login-page #sign-up-form .sign-up-inner form .sing-up-input svg {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  color: #fff;
+}
+
+#login-page #sign-up-form .sign-up-inner form button {
+  text-transform: capitalize;
+  padding: 10px 30px;
+  background: #6015ce;
+  -webkit-box-shadow: 0px 4px #3a0090;
+          box-shadow: 0px 4px #3a0090;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 5px 5px #5813b8;
+  border: 0px solid #fff;
+  width: 100%;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#login-page #sign-up-form .sign-up-inner form button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff39dc), to(#a60084));
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  text-shadow: 6px 6px 1px #a60084;
+  -webkit-box-shadow: 0px 5px #661355;
+          box-shadow: 0px 5px #661355;
+}
+
+#login-page #sign-up-form .sign-up-inner h3 {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  color: #fff;
+}
+
+#login-page #sign-up-form .sign-up-inner p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  margin: 20px 0px 80px 0px;
+}
+
+#login-page #sign-up-form .sign-up-inner p::after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  width: 60px;
+  height: 5px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+#login-page #sign-up-form .sign-up-inner .after-form {
+  margin-top: 40px;
+  display: inline-block;
+}
+
+#login-page #sign-up-form .sign-up-inner .after-form::after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+#login-page #sign-up-form .sign-up-inner .after-form a {
+  color: #ff39dc;
+}
+
+#login-page #sign-up-form h5 {
+  display: inline-block;
+  float: right;
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+#login-page #sign-up-form h5 a {
+  text-transform: capitalize;
+  padding: 10px 30px;
+  background: #6015ce;
+  -webkit-box-shadow: 0px 4px #3a0090;
+          box-shadow: 0px 4px #3a0090;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 5px 5px #5813b8;
+  margin-left: 30px;
+  padding: 20px 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#login-page #sign-up-form h5 a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff39dc), to(#a60084));
+  background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+  text-shadow: 6px 6px 1px #a60084;
+  -webkit-box-shadow: 0px 5px #661355;
+          box-shadow: 0px 5px #661355;
+}
+
+#login-page #sign-up-form h5 a:first-of-type {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */

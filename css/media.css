@@ -109,6 +109,45 @@
   #footer h3 {
     margin-top: 50px;
   }
+  #about-us #free-spin .free-spin .free-spin-txt {
+    padding: 100px 40px;
+  }
+  #sign-up #sign-up-form {
+    padding: 0px 0px 30px 0px;
+  }
+  #sign-up #sign-up-form .sign-up-img-parent .sign-up-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sign-up #sign-up-form .sign-up-img-parent .sign-up-img img {
+    width: 100%;
+    margin: 0;
+  }
+  #login-page #sign-up-form {
+    padding: 0px 0px 30px 0px;
+  }
+  #login-page #sign-up-form .sign-up-img-parent .sign-up-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #login-page #sign-up-form .sign-up-img-parent .sign-up-img img {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -122,7 +161,7 @@
             align-items: center;
   }
   .navbar ul li {
-    margin: 20px 20px !important;
+    margin: 10px 20px !important;
   }
   .navbar .d-flex {
     -webkit-box-align: center;
@@ -181,6 +220,45 @@
   #footer h3 {
     margin-top: 50px;
   }
+  #about-us #free-spin .free-spin .free-spin-txt {
+    padding: 100px 40px;
+  }
+  #sign-up #sign-up-form {
+    padding: 0px 0px 30px 0px;
+  }
+  #sign-up #sign-up-form .sign-up-img-parent .sign-up-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sign-up #sign-up-form .sign-up-img-parent .sign-up-img img {
+    width: 100%;
+    margin: 0;
+  }
+  #login-page #sign-up-form {
+    padding: 0px 0px 30px 0px;
+  }
+  #login-page #sign-up-form .sign-up-img-parent .sign-up-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #login-page #sign-up-form .sign-up-img-parent .sign-up-img img {
+    width: 100%;
+    margin: 0;
+  }
 }
 
 /* extra small */
@@ -194,7 +272,7 @@
             align-items: center;
   }
   .navbar ul li {
-    margin: 20px 20px !important;
+    margin: 10px 20px !important;
   }
   .navbar .d-flex {
     -webkit-box-align: center;
@@ -252,6 +330,45 @@
   }
   #footer h3 {
     margin-top: 50px;
+  }
+  #about-us #free-spin .free-spin .free-spin-txt {
+    padding: 100px 40px;
+  }
+  #sign-up #sign-up-form {
+    padding: 0px 0px 30px 0px;
+  }
+  #sign-up #sign-up-form .sign-up-img-parent .sign-up-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sign-up #sign-up-form .sign-up-img-parent .sign-up-img img {
+    width: 100%;
+    margin: 0;
+  }
+  #login-page #sign-up-form {
+    padding: 0px 0px 30px 0px;
+  }
+  #login-page #sign-up-form .sign-up-img-parent .sign-up-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #login-page #sign-up-form .sign-up-img-parent .sign-up-img img {
+    width: 100%;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=media.css.map */

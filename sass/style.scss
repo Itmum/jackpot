@@ -91,6 +91,11 @@ p {
     font-weight: 400;
     font-size: 24px;
 }
+@mixin anton-reg-28() {
+    font-family: $ff1;
+    font-weight: 400;
+    font-size: 28px;
+}
 @mixin anton-reg-32() {
     font-family: $ff1;
     font-weight: 400;
@@ -244,7 +249,7 @@ $bg2: #150035;
         position: relative;
     }
     .game{
-        clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 91%);
+        clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
         position: absolute;
         top: -120px;
         left: 50%;
@@ -264,9 +269,8 @@ $bg2: #150035;
             padding: 50px 0px;
             // clip-path: polygon(0 15%, 100% 11%, 100% 90%, 0 85%);
             width: 100%;
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
             text-align: center;
+            border-bottom: 5px #3a0090 solid;
             h4{
                 @include headings();
                 filter: drop-shadow(0px 0px 25px rgba(255, 0, 230, 0.801));
@@ -699,4 +703,362 @@ $bg2: #150035;
         top: 0;
     }
 }
+
+// about-us part starts
+#about-us{
+    #banner{
+        text-align: center;
+        h3{
+            @include headings();
+            padding: 0px 0px 40px 0px;
+        }
+        h4{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400px;
+            font-family: $ff1;
+            padding-bottom: 30px;
+        }
+    }
+    #game{
+        background: $bg2;
+    }
+    #free-spin{
+        padding: 150px 0px;
+        p{
+            padding: 10px 0px 10px 0px;
+        }
+        a{
+            
+            margin-top: 50px;
+        }
+        .free-spin-img{
+            margin-top: -60px;
+        }
+        
+    }
+
+    .slick-slide {
+        margin: 0 20px;
+      }
+
+
+}
+// about-us part ends
+// game part starts
+#game{
+    #banner{
+        text-align: center;
+        h3{
+            @include headings();
+            padding: 0px 0px 40px 0px;
+        }
+        h4{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400px;
+            font-family: $ff1;
+            padding-bottom: 30px;
+        }
+    }
+    #relet-game{
+        .relet-game{
+            .relet-item{
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+// game part ends
+// pricing part starts
+#pricing-page{
+    #banner{
+        text-align: center;
+        h3{
+            @include headings();
+            padding: 0px 0px 40px 0px;
+        }
+        h4{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400px;
+            font-family: $ff1;
+            padding-bottom: 30px;
+        }
+    }
+    #pricing{
+        .pricing{
+            .col-lg-4{
+                margin: 80px 0px;
+            }
+        }
+    }
+}
+// pricing part ends
+// sign-up part starts
+#sign-up{
+
+    #banner{
+        text-align: center;
+        h3{
+            @include headings();
+            padding: 0px 0px 40px 0px;
+        }
+        h4{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400px;
+            font-family: $ff1;
+            padding-bottom: 30px;
+        }
+    }
+
+    #sign-up-form{
+        .sign-up-img-parent{
+            
+            .sign-up-img{
+                width: 100%;
+                img{
+                    margin: -100px 50px 0px -220px;
+                }
+            }
+        }
+        background: $bg1;
+        padding: 100px 0px;
+        .sign-up-inner{
+            form{
+                .first-input{
+                    // margin-bottom: 20px;
+                    .sing-up-input{
+                        input{
+                            background: transparent;
+                            border-bottom: 2px solid #fff !important;
+                            color: #fff;
+                            @include p1();
+                            border: 0px solid transparent;
+                            width: 100%;
+                            padding: 5px 0px;
+                        }
+                        
+                    }
+                }
+                .sing-up-input{
+                    margin-bottom: 40px;
+                    position: relative;
+                    input{
+                        background: transparent;
+                        border-bottom: 2px solid #fff !important;
+                        color: #fff;
+                        @include p1();
+                        border: 0px solid transparent;
+                        width: 100%;
+                        padding: 20px 0px;
+                    }
+                    svg{
+                        position: absolute;
+                        right: 20px;
+                        top: 0px;
+                        color: #fff;
+                    }
+                }
+                button{
+                    @include btn();
+                    border: 0px solid #fff;
+                    // padding: 20px 0px;
+                    width: 100%;
+                    text-align: center;
+                    @include anton-reg-20();
+                    &:hover{
+                        @include btn-hover();
+                    }
+                }
+            }
+            h3{
+                @include anton-reg-28();
+                color: #fff;
+            }
+            p{
+                @include p1();
+                position: relative;
+                margin: 20px 0px 80px 0px;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    bottom: -25px;
+                    left: 0px;
+                    width: 60px;
+                    height: 5px;
+                    background: #fff;
+                    border-radius: 5px;
+                }
+            }
+            .after-form{
+                margin-top: 40px;
+                display: inline-block;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: none;
+                }
+                a{
+                    color: #ff39dc;
+                }
+            }
+        }
+        h5{
+            display: inline-block;
+            float: right;
+            color: #fff;
+            margin-top: 20px;
+            @include p1();
+            a{
+                @include btn();
+                margin-left: 30px;
+                padding: 20px 20px;
+                box-shadow: none;
+                &:hover{
+                    @include btn-hover();
+                }
+                &:first-of-type{
+                    position: relative;
+                }
+            }
+        }
+    }
+
+
+}
+#login-page{
+
+    #banner{
+        text-align: center;
+        h3{
+            @include headings();
+            padding: 0px 0px 40px 0px;
+        }
+        h4{
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400px;
+            font-family: $ff1;
+            padding-bottom: 30px;
+        }
+    }
+
+    #sign-up-form{
+        .sign-up-img-parent{
+            
+            .sign-up-img{
+                width: 100%;
+                img{
+                    margin: -100px 50px 0px -220px;
+                }
+            }
+        }
+        background: $bg1;
+        padding: 100px 0px;
+        .sign-up-inner{
+            form{
+                .first-input{
+                    // margin-bottom: 20px;
+                    .sing-up-input{
+                        input{
+                            background: transparent;
+                            border-bottom: 2px solid #fff !important;
+                            color: #fff;
+                            @include p1();
+                            border: 0px solid transparent;
+                            width: 100%;
+                            padding: 5px 0px;
+                        }
+                        
+                    }
+                }
+                .sing-up-input{
+                    margin-bottom: 40px;
+                    position: relative;
+                    input{
+                        background: transparent;
+                        border-bottom: 2px solid #fff !important;
+                        color: #fff;
+                        @include p1();
+                        border: 0px solid transparent;
+                        width: 100%;
+                        padding: 20px 0px;
+                    }
+                    svg{
+                        position: absolute;
+                        right: 20px;
+                        top: 0px;
+                        color: #fff;
+                    }
+                }
+                button{
+                    @include btn();
+                    border: 0px solid #fff;
+                    // padding: 20px 0px;
+                    width: 100%;
+                    text-align: center;
+                    @include anton-reg-20();
+                    &:hover{
+                        @include btn-hover();
+                    }
+                }
+            }
+            h3{
+                @include anton-reg-28();
+                color: #fff;
+            }
+            p{
+                @include p1();
+                position: relative;
+                margin: 20px 0px 80px 0px;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    bottom: -25px;
+                    left: 0px;
+                    width: 60px;
+                    height: 5px;
+                    background: #fff;
+                    border-radius: 5px;
+                }
+            }
+            .after-form{
+                margin-top: 40px;
+                display: inline-block;
+                &::after{
+                    content: '';
+                    position: absolute;
+                    display: none;
+                }
+                a{
+                    color: #ff39dc;
+                }
+            }
+        }
+        h5{
+            display: inline-block;
+            float: right;
+            color: #fff;
+            margin-top: 20px;
+            @include p1();
+            a{
+                @include btn();
+                margin-left: 30px;
+                padding: 20px 20px;
+                box-shadow: none;
+                &:hover{
+                    @include btn-hover();
+                }
+                &:first-of-type{
+                    position: relative;
+                }
+            }
+        }
+    }
+
+
+}
+// sign-up part ends
 
